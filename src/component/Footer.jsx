@@ -1,4 +1,5 @@
 import React from 'react'
+import { license } from '../assets'
 import styles from '../styles'
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
                     Contact NoError Studios which will provide you with
                     well developed custom projects!</p>
                 <div className='flex items-center mt-[55px]'>
-                    <img src="../assets/license.svg" alt="" className='mr-[13px]' />
+                    <img src={license} alt="" className='mr-[13px]' />
                     <p className='text-[24px] text-white'>
                         2023 Developed by NoError. All rights reserved.
                     </p>
