@@ -1,5 +1,4 @@
 import React from 'react'
-import { logoText } from '../assets'
 
 const NavBar = () => {
     return (
