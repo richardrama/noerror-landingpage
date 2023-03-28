@@ -1,6 +1,5 @@
 import React from 'react'
 import { Discord, Github, logoText, Youtube } from '../assets'
-import styles from '../styles'
 
 const NavBar = () => {
     return (
