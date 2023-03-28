@@ -1,5 +1,4 @@
 import React from 'react'
-import { serviceAi, serviceDiscord, serviceScript, serviceSoftware, serviceWebdev, serviceWebsite } from '../assets'
 import styles from '../styles'
 
 const Service = () => {
