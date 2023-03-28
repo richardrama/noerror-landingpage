@@ -1,5 +1,4 @@
 import React from 'react'
-import { contactDiscord, contactGithub, contactInstagram, contactLinkedin, contactTwitter, contactYoutube } from '../assets'
 import styles from '../styles'
 
 const Contact = () => {
@@ -15,12 +14,12 @@ const Contact = () => {
                 </div>
                 <div className='border-[1px] border-green rounded-[70px]  px-[30px] py-[50px]'>
                     <ul className='flex flex-col items-center gap-[45px]'>
-                        <li className=''><a href=""><img src={contactDiscord} alt="" /></a></li>
-                        <li className=''><a href=""><img src={contactLinkedin} alt="" /></a></li>
-                        <li className=''><a href=""><img src={contactInstagram} alt="" /></a></li>
-                        <li className=''><a href=""><img src={contactGithub} alt="" /></a></li>
-                        <li className=''><a href=""><img src={contactYoutube} alt="" /></a></li>
-                        <li className=''><a href=""><img src={contactTwitter} alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactDiscord.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactLinkedin.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactInstagram.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactGithub.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactYoutube.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="../assets/contactTwitter.svg" alt="" /></a></li>
                     </ul>
                 </div>
             </div>
