@@ -1,17 +1,16 @@
 import React from 'react'
-import { license } from '../assets'
 import styles from '../styles'
 
 const Footer = () => {
     return (
         <div className={`${styles.boxWidth} relative bg-[#004A41] mt-[250px] flex justify-between w-full py-[150px]`}>
             <div className="flex flex-col items-start">
-                <img src="../assets/logo-text.png" alt="logo" className='h-[48px] border-b-[1px] border-green' />
+                <img src="/noerror-landingpage/src/assets/logo-text.png" alt="logo" className='h-[48px] border-b-[1px] border-green' />
                 <p className='pt-[25px] text-[24px] text-white max-w-[650px]'>Want epic websites , Discord Bots or custom projects?
                     Contact NoError Studios which will provide you with
                     well developed custom projects!</p>
                 <div className='flex items-center mt-[55px]'>
-                    <img src={license} alt="" className='mr-[13px]' />
+                    <img src="/noerror-landingpage/src/assets/license.svg" alt="" className='mr-[13px]' />
                     <p className='text-[24px] text-white'>
                         2023 Developed by NoError. All rights reserved.
                     </p>

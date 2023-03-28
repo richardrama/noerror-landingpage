@@ -14,12 +14,12 @@ const Contact = () => {
                 </div>
                 <div className='border-[1px] border-green rounded-[70px]  px-[30px] py-[50px]'>
                     <ul className='flex flex-col items-center gap-[45px]'>
-                        <li className=''><a href=""><img src="../assets/contactDiscord.svg" alt="" /></a></li>
-                        <li className=''><a href=""><img src="../assets/contactLinkedin.svg" alt="" /></a></li>
-                        <li className=''><a href=""><img src="../assets/contactInstagram.svg" alt="" /></a></li>
-                        <li className=''><a href=""><img src="../assets/contactGithub.svg" alt="" /></a></li>
-                        <li className=''><a href=""><img src="../assets/contactYoutube.svg" alt="" /></a></li>
-                        <li className=''><a href=""><img src="../assets/contactTwitter.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactLinkedin.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactDiscord.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactInstagram.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactGithub.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactYoutube.svg" alt="" /></a></li>
+                        <li className=''><a href=""><img src="/noerror-landingpage/src/assets/contactTwitter.svg" alt="" /></a></li>
                     </ul>
                 </div>
             </div>
