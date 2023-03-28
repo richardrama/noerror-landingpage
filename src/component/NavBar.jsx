@@ -9,7 +9,7 @@ const NavBar = () => {
                 <img src="../assets/logo-text.png" alt="Logo" className='h-[36px] sm:h-auto' />
                 <ul className='hidden sm:flex items-center'>
                     <li className=''><img src="/noerror-landingpage/src/assets/discord.svg" alt="discord" /></li>
-                    <li className='ml-[35px]'><img src='/noerror-landingpage/src/assets/github.svg' alt="github" /></li>
+                    <li className='ml-[35px]'><img src='../assets/github.svg' alt="github" /></li>
                     <li className='ml-[35px]'><img src='/noerror-landingpage/src/assets/youtube.svg' alt="youtube" /></li>
                 </ul>
             </div>
